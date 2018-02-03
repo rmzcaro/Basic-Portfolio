@@ -91,3 +91,12 @@ footer {
     font-family: "Source Sans Pro", "Arial", sans-serif;
 
 }
+
+/*code for contact.html begins here*/
+
+#contactform {
+    background-color: #0abde3;
+    padding: 20px;
+    display: inline-block;
+    line-height: 50px;
+}
