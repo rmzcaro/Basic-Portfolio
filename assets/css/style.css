@@ -23,6 +23,7 @@ header {
     height: 100px;
     background-color: #48dbfb;
     float: left;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 
 nav {
@@ -37,15 +38,18 @@ nav ul > li {
     list-style: none;
     display: inline; 
     padding: 20px;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 
 
 .leftcolumn {
-   background-color: #d1ccc0; 
+   background-color: #f7f1e3; 
    width: 650px;
    height: 500px;
    position: relative;
-   margin-bottom: 200px;
+   margin-bottom: 2 00px;
+   border: 2px double #8395a7;
+   font-family: "Source Sans Pro", "Arial", sans-serif; 
 }
 
 #article {
@@ -61,6 +65,7 @@ nav ul > li {
     height: 100px;
     background-color: #d1ccc0;
     margin-bottom: 200px;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
  
 }
 
@@ -74,14 +79,15 @@ nav ul > li {
 
 footer {
     height: 50px;
-    background-color: #d1ccc0;
+    background-color: #8395a7;
     position: fixed;
-    padding: 25px;
     bottom: 0;
     margin: 0 auto;
     width: 100%;
     color: #222f3e;
     text-align: center;
     font-size: 10px;
+    border-top: 5px solid #34ace0;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
 
 }
