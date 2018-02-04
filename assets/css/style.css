@@ -55,6 +55,7 @@ nav ul > li {
 #aboutme {
     font-size: 25px;
     margin-left: 50px;
+    font-family: serif;
 }
 
 #article {
@@ -71,7 +72,7 @@ nav ul > li {
     background-color: #f7f1e3;
     margin-bottom: 100px;
     margin-top: 25px;
-    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-family: serif;
  
 }
 
