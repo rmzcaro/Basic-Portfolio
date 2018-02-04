@@ -3,14 +3,15 @@
 }
 .wrapper {
     width: 100%;
-    background-color:##c8d6e5;
     position: fixed;
+    background-image: url ("https://www.toptal.com/designers/subtlepatterns/cubes/");
     border-bottom: 10px #8395a7; 
 }
 
 .container {
     width: 960px;
     margin: 0 auto;
+
 }
 
 
