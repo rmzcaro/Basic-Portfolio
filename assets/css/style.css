@@ -75,6 +75,11 @@ nav ul > li {
  
 }
 
+#smallersection ul > li {
+    list-style: none;
+    display: inline;
+}
+
 .left {
     float: left;
 }
