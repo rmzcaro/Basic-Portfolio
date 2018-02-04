@@ -49,7 +49,12 @@ nav ul > li {
    position: relative;
    margin-top: 25px;
    margin-bottom: 100px;
-   font-family: "Source Sans Pro", "Arial", sans-serif; 
+   font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+#aboutme {
+    font-size: 25px;
+    margin-left: 50px;
 }
 
 #article {
