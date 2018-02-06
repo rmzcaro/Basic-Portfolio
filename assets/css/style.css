@@ -78,8 +78,9 @@ nav ul > li {
 }
 
 #smallersection ul > li {
-    list-style: none;
-    display: inline;
+    list-style:none;
+    display: inline-block;
+    margin-right: 5px;
 }
 
 .left {
