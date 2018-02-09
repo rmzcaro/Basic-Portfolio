@@ -2,6 +2,8 @@
 <html>
 <head> 
     <link rel="stylesheet" href="assets/css/style.css"> 
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
 
     <title>Stuff</title> 
 </head>
@@ -22,7 +24,7 @@
         <nav>
             <ul>
                  <!--TODO: add nav heading, but hide from rendered view-->
-                 <li><a href="./" title="Go to homepage." style="text-decoration:none">About</a>|</li>
+                 <li><a href="./index.html" title="Go to homepage." style="text-decoration:none">About</a>|</li>
                  <li><a href="./portfolio.html" title="Check out my portfolio." style="text-decoration:none">Portfolio</a>|</li>
                  <li><a href="./contact.html" title="Contact me." style="text-decoration:none">Contact</a>|</li>
             </ul>
@@ -34,7 +36,7 @@
 
     <div class= "container">
          <div class="leftcolumn left">
-             <div id="aboutme">About Me</div>
+             <strong><div id="aboutme">About Me</div></strong>
 
              <img src="assets/images/carolina.png.png" alt"image of carolina" style="border:none;width: 200px; margin-left: 50px";>
              <div id="article">
@@ -48,21 +50,20 @@
 
     <div class= "container">
          <div class="rightcolumn right">
-             <p>Connect with me</p>
+             <strong><p>Connect with me</p></strong>
 
              <div id="smallersection">
                  <ul>
                     
                     <li>
-                        <a href="https://github.com/rmzcaro" target="_blank">
-                        <img src="assets/images/gitwhite.png"/ style="width:100px; margin-top:5px"></li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/carolinaramirez01/" target="_blank">
-                        <img src="assets/images/linkedin.png"/ style="width:50px; margin-top:5px";></li>
+                        <a href="https://github.com/rmzcaro" class="btn btn-primary" >
+                            <i class="fab fa-github-square"/ style="font-size:3em"></i>
 
+                        <a href="https://www.linkedin.com/in/carolinaramirez01/" class="btn btn-primary">
+                            <i class="fab fa-linkedin"/ style="font-size:3em"></i>
                     <li>
-                            <a href="http://stylecaster.com/best-free-blog-sites/" target="_blank">
-                            <img src="assets/images/bloggr.png"/ style="width:50px; margin-top:5px"></li>
+                        <a href="http://stylecaster.com/best-free-blog-sites/" class="btn btn-primary">
+                            <i class="far fa-envelope"/ style="font-size:3em"></i></a>
                 </ul>
 
              </div>
